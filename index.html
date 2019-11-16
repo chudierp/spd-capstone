@@ -1,54 +1,123 @@
 <!DOCTYPE html>
     <html lang="en">
         <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>friends & pho</title>
-            
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <link rel="stylesheet" href=""
+        <!-- Meta Tags for Bootstrap 4 -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap 4 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         </head>
             <body>
-                <header>
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                                <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                  <span class="navbar-toggler-icon"></span>
-                                </button>
-                              
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                  <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active">
-                                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="#">Link</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Dropdown
-                                      </a>
-                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                      </div>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                                    </li>
-                                  </ul>
-                                  <form class="form-inline my-2 my-lg-0">
-                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                                  </form>
-                                </div>
-                              </nav>
-                </header>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+            <!-- Navbar -->
+            <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Demo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Signup</a>
+                    </li>
+                  </ul>
+                  <!-- Carousel -->
+<!-- <div id="slidercaption" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+        <li data-target="#slidercaption" data-slide-to="0" class="active"></li>
+        <li data-target="#slidercaption" data-slide-to="1"></li>
+        <li data-target="#slidercaption" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active"> -->
+        
+        <img class="d-block img-fluid" src="https://lh3.googleusercontent.com/kR-ua79oBzPhdEbcO02Q4yE5pchjiInG2qCP6RYwzVdXk-31tB4v6XYw-A2Hk4jsLxAsTUbIb5djmDoxV09r91GUFpnGd7FocSyVN13v1KQEHzN9pFGKWgh6nFAP-QITpuKPUN4JNilRCBv9BHboRRRYnVvI0L5JBD06Z4GWGly9snKgwXWqxbcqqhtKrSbgZ9TsjISSWY3lJrQRhGjiIDYF8VYFqsgjOv2Bl0E6Iy1QQ3btI9djCkX_QzXm_JHV5Qwo7qAkUFVz51-UzLL3twX537iH1l3pXrvzKmVFIHnQn39Qhj_EDx5k1onVCG48-tFDgBkHGh2eWBDjLUDa9rbB5ZbGyftn2WgiLmJwSn5tGWnbjvgOVznzRWyod6ABqlnE3Va5LL-IXEx9723dExeDPGuuQCkhSxCxwXxEvwGy_rsR-BwT4uQnsHf5-YL1ehZ8FP6_tKqGq6flWEelk9M9IQbWfoCMMNGJSDY5RDENSwDQM3AEnHBFCUumfSwesWhNLp74N2lvAt-jLlaajhajunTIHCIMnc3ZSYiYKknDJqaJC9XeC-gE3286wUSKBReEw18-AS8ylbF0d2vv78NA5nkleigciNdVfLWb3FDmHf-6C94urGnwzcajKKTDb0e-7vXgPF2_Gd7E6PUQfOzZqElxCr5WhavIknGF0b98AoZk4hvPQw=w2498-h1378-no"  width="3000" height="00">
+        <img class="d-block img-fluid" src="http://9to5mac.com/2017/05/05/iphone-gifs-how-to-get-imessage-gif-keyboard/how-to-get-the-imessage-gif-keyboard-1/"  width="1090" height="200">
+        <div class="carousel-caption d-none d-md-block">
+            <h1></h1> 
+            <p><small> <a href="http://robertindiana.com/" title="Learn more about Rober Indiana"></a></small></p>
+        </div>
+        </div>
+        <!-- <div class="carousel-item">
+        <img class="d-block img-fluid" src="https://img.webnots.com/2017/05/BS_Slide2.jpg" alt="Slide2" width="100%">
+        <div class="carousel-caption d-none d-md-block">
+        <h3>Here is a caption for slide 2</h3>
+        <p>Here is short description for slide 2</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img class="d-block img-fluid" src="https://img.webnots.com/2017/05/BS_Slide3.jpg" alt="Slide3" width="100%">
+        <div class="carousel-caption d-none d-md-block">
+        <h3>Here is a caption for slide 3</h3>
+        <p>Here is short description for slide 3</p>
+        </div>
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#slidercaption" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slidercaption" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a> -->
+        </div>
+
+
+        <!-- Hero Header Jumbotron -->
+<div class="jumbotron">
+        
+        <!-- <h1 class="display-3">What is your MOOD today?</h1>
+        <p class="lead">This is a demo theme created with Bootstrap 4. Add some attractive heading for your page here.</p>
+        <hr class="my-4">
+        <p>Add your subtitle here to explain more about this page in detail.</p>
+        <a class="btn btn-primary btn-lg btn-spl" href="#" role="button">View Facebook Page</a>
+        </div> -->
+
+        <!-- Card Deck -->
+<div class="card-deck">
+        <div class="card btn-spl">
+        <img class="card-img-top" src="https://techcrunch.com/wp-content/uploads/2015/02/notificationsbubble.jpg?w=730&crop=1" alt="Card image cap">
+        <div class="card-block">
+        <h4 class="card-title">Online pair counciling </h4>
+        <p class="card-text">Daily checkins with a dedicated professional therapist.<br>
+            All therapists are licensed and experienced.<br> 
+            Therapy by text, phone, chat and video
+          </p>
+        <button class="btn btn-primary btn-spl" href="#" role="button">Try Demo</button>
+        </div>
+        <div class="card-footer">
+        <small class="text-muted">Here is a footer</small>
+        </div>
+        </div>
+        <div class="card btn-spl">
+        <img class="card-img-top" src="https://cdn2.hubspot.net/hubfs/2497371/Attendify_Blog/1905_Feature-Launch-Group-Chat1905_Feature-Launch-Group-Chat1905_Feature-Launch-Group-Chat-1.gif" alt="Card image cap">
+        <div class="card-block">
+        <h4 class="card-title">Groupchats with friends</h4>
+        <p class="card-text">Share how you're feeling at any given moment with daily checkins for friends.</p>
+        <button class="btn btn-danger btn-spl" href="#" role="button">Try Demo</button>
+        </div>
+        <div class="card-footer">
+        <small class="text-muted">Here is a footer</small>
+        </div>
+        </div>
+        <div class="card btn-spl">
+        <img class="card-img-top" src="https://img.webnots.com/2017/04/Bootstrap-Card-Image.png" alt="Card image cap">
+        <div class="card-block">
+        <h4 class="card-title">Product 3</h4>
+        <p class="card-text">Here is a longer description of the card and the height will be auto aligned with flex box.</p>
+        <button class="btn btn-secondary btn-spl" href="#" role="button">Buy Now</button>
+        </div>
+        <div class="card-footer">
+        <small class="text-muted">Here is a footer</small>
+        </div>
+        </div>
+        </div>
+
+        
+            <!-- Bootstrap 4 Scripts -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
             </body>
     </html>
